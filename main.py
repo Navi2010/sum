@@ -1,5 +1,8 @@
-print ("welcome to coding")
-print (13)
-print ("navya", 13)
-print ("hello\n navya")
+user_input = int(input('enter a number: '))
+number = 0
+
+for i in range(user_input):
+  number += i
+
+print(number)
 
